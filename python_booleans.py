@@ -45,3 +45,6 @@ if myFunction():
     print("YES!")
 else:
     print("NO!")
+
+x1 = 200
+print(isinstance(x, int))
