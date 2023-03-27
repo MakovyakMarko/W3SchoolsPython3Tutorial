@@ -25,4 +25,3 @@ thisdict.clear()
 print(thisdict)
 # також del може повністю видалити словник
 del thisdict
-print(thisdict)
