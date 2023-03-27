@@ -43,3 +43,18 @@ x /= 2
 print(x)
 x %= 6
 print(x)
+
+list = ["Yellow","Green", "Blue"]
+def myfunc():
+    for x in list:
+        x = input("Enter data to list: ")
+        list.append(x)
+        print(list)
+        y = input("Would you enter more data?(y/n): ")
+        if y == "y":
+            myfunc()
+        elif y == "n" :
+            list.
+            z = print(list)
+        break
+myfunc()
