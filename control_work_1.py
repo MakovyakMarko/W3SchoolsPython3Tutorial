@@ -96,40 +96,40 @@ def string_menager():
             elif choise == "3":
                 print("Length of the string is", len(string), "charecters.")
             elif choise == "4":
-                string.capitalize()
+                print(string.capitalize())
             elif choise == "5":
-                string.upper()
+                print(string.upper())
             elif choise == "6":
-                string.lower()
+                print(string.lower())
             elif choise == "7":
                 count = input("What we will count?: ")
                 if count in string:
-                    string.count(count)
+                    print("There is ",string.count(count), "characters")
                 else:
                     print("There is no such value in string")
             elif choise == "8":
                 search = input("What we will search?: ")
                 if search in string:
-                    string.find(search)
+                    print(string.find(search))
                 else:
                     print("There is no such value in string")
             elif choise == "9":
                 index = input("Type letter wich index you want to know: ")
                 if index in string:
-                    string.index(index)
+                    print(string.index(index))
                 else:
                     print("There is no such letters in string")
             elif choise == "10":
                 break_word = input("Type the word to break around it: ")
                 if break_word in string:
-                    string.partition(break_word)
+                    print(string.partition(break_word))
                 else:
                     print("There is no such word in string")
             elif choise == "11":
                 str_word = input("Type word in string wich you want to replace: ")
                 if str_word in string:
                     repl_word = input("Type new word to replace: ")
-                    string.replace(str_word, repl_word)
+                    print(string.replace(str_word, repl_word))
                 else:
                     print("There is no such word in string")
             elif choise == "12":
@@ -142,10 +142,11 @@ def string_menager():
                 break
             else:
                 print("Invalid value.")
+        return string
     except KeyError:
         print("Invalid input.")
 
-#string_menager()
+string_menager()
 # виберіть що ви хочете зробити:
 # додати до спику - append()
 # видалити зі списку - pop()
