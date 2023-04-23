@@ -145,8 +145,9 @@ def string_menager():
         return string
     except KeyError:
         print("Invalid input.")
-
-string_menager()
+f =open("demofile_for_control_work", "w")
+f.write(string_menager())
+f.close
 # виберіть що ви хочете зробити:
 # додати до спику - append()
 # видалити зі списку - pop()
