@@ -1,0 +1,2 @@
+This is square, it's area equals 9
+This is rectangle, it's area equals 12
