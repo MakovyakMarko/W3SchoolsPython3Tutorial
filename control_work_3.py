@@ -7,11 +7,11 @@ class SquareOrRectangle:
         file = open("square_or_rectangle.txt", "a")
         if self.side_a == self.side_b:
             square_area = self.side_a ** 2
-            data = ("This is square, it's area equals " + str(square_area) + "\n")
+            data = (f"This is square, side 'a' is {self.side_a} and side 'b' is {self.side_b}, it's area equals {square_area}\n")
             file.write(str(data))
         elif self.side_a != self.side_b:
             rectangle_area = self.side_a * self.side_b
-            data = ("This is rectangle, it's area equals " + str(rectangle_area) + "\n")
+            data = (f"This is rectangle, side 'a' is {self.side_a} and side 'b' is {self.side_b}, it's area equals {rectangle_area}\n")
             file.write(str(data))
         file.close()
 

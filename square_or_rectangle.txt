@@ -1,2 +1,5 @@
-This is square, it's area equals 9
-This is rectangle, it's area equals 12
+This is square, side 'a' is 4 and side 'b' is 4, it's area equals 16
+This is rectangle, side 'a' is 45 and side 'b' is 46, it's area equals 2070
+This is rectangle, side 'a' is 43 and side 'b' is 2, it's area equals 86
+This is rectangle, side 'a' is 3 and side 'b' is 4, it's area equals 12
+This is square, side 'a' is 5 and side 'b' is 5, it's area equals 25
